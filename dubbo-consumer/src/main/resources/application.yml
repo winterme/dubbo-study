@@ -1,0 +1,10 @@
+server:
+  port: 7777
+
+
+spring.dubbo.protocol.name: dubbo
+#服务端口,dubbox协议时,默认端口20880,设置为-1则会分配一个没有被占用的端口
+spring.dubbo.protocol.port=: 20880
+spring.dubbo.server: true
+spring.dubbo.application.name: dubbo-consumer
+spring.dubbo.registry.address: zookeeper://103.118.41.204:2181
